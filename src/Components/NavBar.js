@@ -8,8 +8,8 @@ class NavBar extends Component {
             <div className="NavBar">
             <div class="table">
             <ul>
-              <li><a href="#" >Home</a></li>
-              <li><a href="#" className="appoitments" >About the Day</a></li>
+              <li><a href="/home" >Home</a></li>
+              <li><a href="/aboutday" className="appoitments" >About the Day</a></li>
               <li><a href="#" >RSVP</a></li>
               <li><a href="#" >Contact</a></li>
             </ul>

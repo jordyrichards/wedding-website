@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
+import AboutTheDay from './Pages/AboutTheDay';
 import NavBar from './Components/NavBar';
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Route path="/home" component={HomePage}></Route>
+        <Route path="/aboutday" component={AboutTheDay}></Route>
       </div>
       </Router>
     );
