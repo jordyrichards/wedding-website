@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
 import AboutTheDay from './Pages/AboutTheDay';
+import Masthead from './Components/Masthead';
 import NavBar from './Components/NavBar';
 import Venue from './Components/Venue';
 
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
+      <Masthead />
         <NavBar />
         <Route path="/home" component={HomePage}></Route>
         <Route path="/venue" component={Venue}></Route>

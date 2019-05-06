@@ -5,8 +5,6 @@ class NavBar extends Component {
     
         render() {
           return(
-            <div className="NavBar">
-            <h1>Jordan and Alex Wedding</h1>
             <div class="table">
             <ul>
               <li><a href="/home" >Home</a></li>
@@ -16,10 +14,8 @@ class NavBar extends Component {
               <li><a href="/contact" >Contact</a></li>
             </ul>
             </div>
-            </div>
           )
         }
-      
 }
 
 export default NavBar;

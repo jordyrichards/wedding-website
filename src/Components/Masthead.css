@@ -1,0 +1,24 @@
+.titleLeft {
+    font-size: 50px;
+    font-family: 'Harabara Bold', Arial, sans-serif;
+    color: #5b0099;
+    float: left;
+    padding-left: 22.5%;
+}
+
+.titleRight {
+    font-size: 50px;
+    font-family: 'Harabara Bold', Arial, sans-serif;
+    color: #5b0099;
+    float: right;
+    padding-right: 22.5%;
+}
+
+.titleContainer {
+    clear: both;
+}
+
+.heartIcon {
+    align-self: center;
+    padding-top: 50px
+}
