@@ -18,13 +18,13 @@ li a {
     font-size: 23px;
     padding: 14px 16px;
     text-decoration: none;
-    width: 20%;
+    width: 58%;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: white;
-    color: black;
+    text-decoration: underline;
 }
 
 .table {

@@ -1,17 +1,19 @@
 .titleLeft {
     font-size: 50px;
     font-family: 'Harabara Bold', Arial, sans-serif;
-    color: #5b0099;
+    color: #a961f2;
     float: left;
-    padding-left: 22.5%;
+    text-shadow: 1px 1px 1px #dbb0e6;
+    padding-left: 30%;
 }
 
 .titleRight {
     font-size: 50px;
     font-family: 'Harabara Bold', Arial, sans-serif;
-    color: #5b0099;
+    color: #a961f2;
     float: right;
-    padding-right: 22.5%;
+    text-shadow: 1px 1px 1px #dbb0e6;
+    padding-right: 30%;
 }
 
 .titleContainer {
