@@ -4,6 +4,15 @@
     text-shadow: 3px 3px 3px #fff;
 }
 
+@media only screen and (max-width: 1218px) {
+    .countdown {
+        display: none;
+    }
+    .countdown-label {
+        display: none;
+    }
+}
+
 .countdown{
     color: purple;
     font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;

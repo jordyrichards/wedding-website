@@ -9,9 +9,9 @@ class NavBar extends Component {
             <ul>
               <li><a href="/home" >Home</a></li>
               <li><a href="/venue" className="appoitments" >Venue</a></li>
-              <li><a href="/schedule" className="appoitments" >Schedule</a></li>
+              <li><a href="/info" className="appoitments" >Day Info</a></li>
+              <li><a href="/registry" >Registry</a></li>
               <li><a href="/rsvp" >RSVP</a></li>
-              <li><a href="/contact" >Contact</a></li>
             </ul>
             </div>
           )

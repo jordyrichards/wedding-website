@@ -32,3 +32,12 @@ li a:hover {
     margin: 0 auto;
     width: 80%;
 }
+
+@media only screen and (max-width: 1218px) {
+    li a {
+        font-size: 14px;
+    }
+    .table {
+        width: 100%;
+    }
+}
