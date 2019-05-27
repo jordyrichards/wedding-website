@@ -7,6 +7,7 @@ import Masthead from './Components/Masthead';
 import NavBar from './Components/NavBar';
 import Venue from './Components/Venue';
 import RSVPForm from './Pages/RSVPForm';
+import AboutTheDay from './Pages/AboutTheDay'
 
 class App extends Component {
   render() {
@@ -18,7 +19,7 @@ class App extends Component {
         <NavBar />
         <Route path="/home" component={HomePage}></Route>
         <Route path="/venue" component={Venue}></Route>
-        <Route path="/info" component={OrderOfDay}></Route>
+        <Route path="/info" component={AboutTheDay}></Route>
         <Route path="/rsvp" component={RSVPForm}></Route>
         </div>
       </div>

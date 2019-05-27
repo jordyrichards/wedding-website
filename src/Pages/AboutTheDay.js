@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './HomePage.css';
-import Venue from '../Components/Venue';
+import './AboutTheDay.css';
+import OrderOfDay from '../Components/OrderOfDay';
 
 class AboutTheDay extends Component {
     render() {
         return(
             <div className="HomePage">
             <h1 class="mainTitle">Here's some info about the day!!</h1>
-            <Venue />
+            <OrderOfDay />
             </div>
         )
     }
