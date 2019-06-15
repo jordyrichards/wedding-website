@@ -1,0 +1,11 @@
+.smallTitle{
+    color: purple;
+    font: 400 60px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+}
+
+.content{
+    color: purple;
+    font: 400 30px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+}

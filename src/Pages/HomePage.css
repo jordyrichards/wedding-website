@@ -1,6 +1,32 @@
 .mainTitle{
-    color: white;
+    color: purple;
     font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
-    color: rgba(252, 246, 246, 0.884);
     text-shadow: 3px 3px 3px #fff;
+}
+
+@media only screen and (max-width: 1218px) {
+    .countdown {
+        display: none;
+    }
+    .countdown-label {
+        display: none;
+    }
+}
+
+.countdown{
+    color: purple;
+    font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+    letter-spacing: 30px;
+}
+
+.countdown-label{
+    color: purple;
+    font: 400 50px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+
+}
+
+.polaroid{
+    padding-top: 20px;
 }

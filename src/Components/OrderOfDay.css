@@ -1,0 +1,19 @@
+.orderTable {
+    margin-left: auto; 
+    margin-right: auto; 
+    width:95%;
+    table-layout: fixed
+}
+
+.orderTable, td {
+    border: 1px solid black;
+}
+
+.orderTable caption {
+    text-align: center;
+}
+
+.schedule {
+    width:98%; 
+    margin:1%;
+}
