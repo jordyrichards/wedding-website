@@ -7,7 +7,7 @@ class HomePage extends Component {
     render() {
         return(
             <div className="HomePage">
-            <img className="polaroid" src={require('./Polaroid_collage.png')} alt="photo collage" width="50%" height="50%" />
+            <img className="polaroid" src={require('./homepage-image.png')} alt="photo collage" width="100%" height="100%" />
             <p class="countdown-label">Days &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hours &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mins &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Secs</p>
                 <div className="countdown">
                     <Countdown date={new Date('2019-11-02T13:00:00+01:00')} />

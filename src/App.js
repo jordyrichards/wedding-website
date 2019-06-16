@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, DefaultRoute } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
 import OrderOfDay from './Components/OrderOfDay';
 import Masthead from './Components/Masthead';
@@ -14,10 +14,12 @@ class App extends Component {
     return (
       <Router>
       <div>
+      <div className="navBackground">
+        <NavBar />
+      </div>
       <Masthead />
       <div className="App">
-        <NavBar />
-        <Route path="/home" component={HomePage}></Route>
+        <Route exact path="/" component={HomePage}></Route>
         <Route path="/venue" component={Venue}></Route>
         <Route path="/info" component={AboutTheDay}></Route>
         <Route path="/rsvp" component={RSVPForm}></Route>

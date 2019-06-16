@@ -1,26 +1,4 @@
-.titleLeft {
-    font-size: 50px;
-    font-family: 'Harabara Bold', Arial, sans-serif;
-    color: #a961f2;
-    float: left;
-    text-shadow: 1px 1px 1px #dbb0e6;
-    padding-left: 30%;
-}
-
-.titleRight {
-    font-size: 50px;
-    font-family: 'Harabara Bold', Arial, sans-serif;
-    color: #a961f2;
-    float: right;
-    text-shadow: 1px 1px 1px #dbb0e6;
-    padding-right: 30%;
-}
-
-.titleContainer {
-    clear: both;
-}
-
-.heartIcon {
-    align-self: center;
-    padding-top: 50px
+.bannerImage {
+    width: 100%;
+    height: 300px;
 }

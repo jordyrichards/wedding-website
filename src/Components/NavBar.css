@@ -1,9 +1,9 @@
-
 ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     text-align: center;
+    line-height: 275px;
 }
 
 li {
@@ -13,9 +13,9 @@ li {
 
 li a {
     display: block;
-    color: purple;
+    color: white;
     text-align: center;
-    font-size: 23px;
+    font-size: 35px;
     padding: 14px 16px;
     text-decoration: none;
     width: 58%;
@@ -23,7 +23,6 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: white;
     text-decoration: underline;
 }
 
