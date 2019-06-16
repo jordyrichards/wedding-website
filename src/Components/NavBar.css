@@ -34,9 +34,16 @@ li a:hover {
 
 @media only screen and (max-width: 1218px) {
     li a {
-        font-size: 14px;
+        font-size: 10px;
     }
     .table {
         width: 100%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        overflow: hidden;
+        text-align: center;
+        line-height: 25px;
     }
 }

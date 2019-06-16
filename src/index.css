@@ -6,6 +6,12 @@ html {
   background-size: cover;
 }
 
+@media only screen and (max-width: 767px) {
+  html{
+    background: url(./leaves-on-wood.png) no-repeat center center fixed;
+  }
+}
+
 @font-face {
   font-family: "Harabara Bold";
   src: url("../src/styles/fonts/billy-scription/billy_scriptian-webfont.eot");
