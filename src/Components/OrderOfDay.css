@@ -6,11 +6,18 @@
 }
 
 .orderTable, td {
+    color: purple;
+    font: 400 25px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
     border: 1px solid black;
 }
 
 .orderTable caption {
+    color: purple;
+    font: 400 40px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
     text-align: center;
+    text-decoration: underline;
 }
 
 .schedule {

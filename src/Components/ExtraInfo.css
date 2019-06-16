@@ -1,0 +1,13 @@
+.subtitleInfo {
+    color: purple;
+    font: 400 40px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.normalContent {
+    color: purple;
+    font: 400 24px/1.2 'Merienda One', Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px #fff;
+}

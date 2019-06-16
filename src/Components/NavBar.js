@@ -5,14 +5,16 @@ class NavBar extends Component {
     
         render() {
           return(
-            <div class="table">
+            <div>
+            <div class="table"  >
             <ul>
-              <li><a href="/home" >Home</a></li>
+              <li><a href="/" >Home</a></li>
               <li><a href="/venue" className="appoitments" >Venue</a></li>
               <li><a href="/info" className="appoitments" >Day Info</a></li>
               <li><a href="/registry" >Registry</a></li>
               <li><a href="/rsvp" >RSVP</a></li>
             </ul>
+            </div>
             </div>
           )
         }

@@ -8,7 +8,6 @@
   padding: 24px;
   position: relative;
   width: 80%;
-  margin-top: 50px;
 }
 .App:before, .App:after {
   content: "";
@@ -30,5 +29,13 @@
   right: -3px;
   top: 1px;
   transform: rotate(1.4deg);
+}
+
+.navBackground {
+  height: 250px;
+  background-image: url('Webp.net-resizeimage.png');
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center;
 }
 
