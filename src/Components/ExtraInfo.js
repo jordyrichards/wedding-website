@@ -9,7 +9,7 @@ class ExtraInfo extends Component {
                 <p className="normalContent">We are lucky to have all the rooms in the hotel available to us. However the hotel is small so the rooms are limited in number.</p>
                 <p className="normalContent">A 2 person room is £80 including breakfast, unfortunately due to the limited availability we are unable to offer single rooms.</p>
                 <p className="subtitleInfo">Dress Code</p>
-                <p className="normalContent">The dress code for the wedding is Formal Attire. The theme for the wedding is "Nature in Autumn", so plenty of Red's, Orange's, Yellow's and Purple's</p>
+                <p className="normalContent">The dress code for the wedding is <a href="https://www.invitationsbydawn.com/content/wedding-dress-code-101/">Formal Attire / Black Tie Optional</a>. The theme for the wedding is "Nature in Autumn", so plenty of Red's, Orange's, Yellow's and Purple's</p>
                 <p className="normalContent">During the evening the same dress code applies. However fursuits are also encouraged after the reception has started proper</p>
                 <p className="subtitleInfo">Directions</p>
                 <p className="normalContent">Driving: The Hotel is located just off of Junction 17 on the M4, take the exit towards Malmesbury and then take the first left towards Stanton St Quinin. There is ample parking at the venue for all guests</p>

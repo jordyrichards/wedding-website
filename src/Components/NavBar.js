@@ -8,11 +8,11 @@ class NavBar extends Component {
             <div>
             <div class="table"  >
             <ul>
-              <li><a href="/" >Home</a></li>
-              <li><a href="/venue" className="appoitments" >Venue</a></li>
-              <li><a href="/info" className="appoitments" >Day Info</a></li>
-              <li><a href="/registry" >Registry</a></li>
-              <li><a href="/rsvp" >RSVP</a></li>
+              <li className="Nav"><a href="/" >Home</a></li>
+              <li className="Nav2"><a href="/venue" className="appoitments" >Venue</a></li>
+              <li className="Nav"><a href="/info" className="appoitments" >Day Info</a></li>
+              <li className="Nav2"><a href="/registry" >Registry</a></li>
+              <li className="Nav"><a href="/rsvp" >RSVP</a></li>
             </ul>
             </div>
             </div>
